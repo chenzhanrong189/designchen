@@ -33,3 +33,6 @@ ui-icon{display:contents}ui-icon>svg{display:none}
   .small-play ui-icon{width:19px;height:19px}
   .about .big-star,.about .portrait-star{display:none}
 }
+
+.primary.featured-film-cta{width:334px;max-width:100%;min-height:58px;justify-content:center;gap:0;text-align:center}
+@media(max-width:768px){.primary.featured-film-cta{min-height:50px}}
