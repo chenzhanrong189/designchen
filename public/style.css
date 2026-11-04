@@ -23,3 +23,13 @@
 
 /* Shared live portfolio views */
 .hero-meta{display:flex;align-items:center;gap:22px}.views-counter{position:relative;display:flex;align-items:center;gap:10px;padding:8px 13px;border:1px solid #c5eaf253;border-radius:3px;background:#08233350;backdrop-filter:blur(12px);color:#e4f7fc;min-width:150px;letter-spacing:0}.views-counter>svg{opacity:.8;flex-shrink:0}.views-label{display:block;font-size:7px;letter-spacing:1px;line-height:1.5;color:#c0e1ea}.views-counter strong{display:block;font-size:21px;line-height:1.2;font-weight:900;letter-spacing:.5px;font-variant-numeric:tabular-nums}.views-live{width:5px;height:5px;border-radius:50%;background:#a0e9e3;box-shadow:0 0 9px #7fd8dc50;margin-left:4px;align-self:center}.views-offline .views-live{background:#8a9ea7;box-shadow:none}.views-delta{position:absolute;right:12px;top:19px;font-size:11px;color:#a9f6ed;font-weight:700;opacity:0;pointer-events:none}.views-updated .views-delta{animation:views-plus 1.6s ease-out both}.views-updated strong{animation:views-pop .7s ease-out}.footer-views{font-size:9px;letter-spacing:.8px;white-space:nowrap}.footer-views b{font-variant-numeric:tabular-nums;color:#e4f7fc}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@keyframes views-plus{0%{opacity:0;transform:translateY(0)}20%{opacity:1}100%{opacity:0;transform:translateY(-30px)}}@keyframes views-pop{0%{transform:translateY(2px);color:#b7fff4}45%{transform:translateY(-2px)}100%{transform:translateY(0)}}@media(max-width:700px){.hero-meta{gap:0}.hero-meta>span:not(.sr-only){display:none}.views-counter{min-width:115px;padding:7px 10px;gap:7px}.views-counter strong{font-size:18px}.views-label{font-size:6px;letter-spacing:.6px}.views-counter>svg{width:17px}.views-live{width:4px;height:4px;margin-left:2px}.footer-views{font-size:8px}.ocean-journey .ocean-hero .hero-top{align-items:center}}
+
+/* Preserve desktop glyphs; draw consistent mobile icons without emoji fonts. */
+ui-icon{display:contents}ui-icon>svg{display:none}
+@media(max-width:768px){
+  ui-icon{display:inline-block;width:18px;height:18px;font-size:0;line-height:0;vertical-align:middle;flex:none;color:inherit}
+  ui-icon>svg{display:block;width:100%;height:100%;pointer-events:none}
+  .big-play ui-icon{width:26px;height:26px}
+  .small-play ui-icon{width:19px;height:19px}
+  .about .big-star,.about .portrait-star{display:none}
+}
