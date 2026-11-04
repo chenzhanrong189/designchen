@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "title": "NOVEMBER 02",
-    "subtitle": "11月2日 · AI 创作练习",
+    "title": "AI FASHION SHOW",
+    "subtitle": "11月2日 · AI 创作",
     "category": "explore",
     "duration": 34.78,
     "width": 2880,
     "height": 2160,
     "file": "film-1.mp4",
-    "poster": "film-1-frame-0.jpg",
+    "poster": "featured-november02.webp",
     "bytes": 10220432
   },
   {
@@ -130,5 +130,29 @@
     "file": "film-11.mp4",
     "poster": "film-11-frame-1.jpg",
     "bytes": 5113749
+  },
+  {
+    "id": 12,
+    "title": "CLAOO / BRAND FILM",
+    "subtitle": "CLAOO · 旗舰店 AI 视频",
+    "category": "product",
+    "duration": 50.48,
+    "width": 1920,
+    "height": 1080,
+    "file": "film-12.mp4",
+    "poster": "film-12-frame-1.jpg",
+    "bytes": 12078631
+  },
+  {
+    "id": 13,
+    "title": "CLAOO / SPANISH EDIT",
+    "subtitle": "CLAOO · 西班牙语 AI 视频",
+    "category": "product",
+    "duration": 51.08,
+    "width": 1080,
+    "height": 1920,
+    "file": "film-13.mp4",
+    "poster": "film-13-frame-1.jpg",
+    "bytes": 9204878
   }
 ]
